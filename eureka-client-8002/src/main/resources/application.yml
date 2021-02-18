@@ -1,0 +1,10 @@
+# 应用名称
+server:
+  port: 8002
+spring:
+  application:
+    name: service-client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
